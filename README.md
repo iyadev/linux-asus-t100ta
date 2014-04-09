@@ -1,7 +1,7 @@
 linux-asus-t100ta
 =================
 
-Getting Linux (Esp. Ubuntu) up and running well on the Asus Transformer T100
+Getting Linux (Esp. Ubuntu) up and running well on the Asus Transformer T100 Mod for W4-820
 
 Look in the subfolders for various useful items.
 
@@ -26,3 +26,7 @@ Other
 
 nvram: The Asus t100 wifi nvram
 video: A default X11 configuration file
+
+Mod
+-----
+Rotate Script Ok
