@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOUCHSCREEN=`xinput | grep ATML1000 | cut  -f2 | cut -d= -f2`
-CURR_ROT=`xrandr -q --verbose | grep VGA | cut -d" " -f 6`
+TOUCHSCREEN=`xinput | grep SYNA7300:00 | cut  -f2 | cut -d= -f2`
+CURR_ROT=`xrandr -q --verbose | grep VGA | cut -d" " -f 5`
 
 if [ "$CURR_ROT" == "normal" ]; then
 	ROT_TO="right"
